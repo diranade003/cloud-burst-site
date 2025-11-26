@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Droplets, Smartphone, ThermometerSun, Leaf } from "lucide-react";
-import heroImage from "@/assets/hero-glove.jpg";
+import heroImage from "@/assets/hero-sustainable.png";
 
 const Home = () => {
   const products = [
