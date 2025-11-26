@@ -9,6 +9,7 @@ import empoweringImage from "@/assets/empowering-relief.jpg";
 import sweatsmartImage from "@/assets/sweatsmart-hero.jpg";
 import gloveImage from "@/assets/glove-background.jpg";
 import faceMaskImage from "@/assets/face-mask.png";
+import coolingSockImage from "@/assets/cooling-sock.jpg";
 
 const Home = () => {
   const products = [
@@ -118,13 +119,6 @@ const Home = () => {
 
           {/* Thermoelectric Glove Section */}
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto mb-16">
-            <div className="relative">
-              <img 
-                src={gloveImage} 
-                alt="Thermoelectric glove prototype for palm sweating relief"
-                className="rounded-lg shadow-lg w-full h-auto"
-              />
-            </div>
             <div>
               <p className="text-sm font-semibold text-primary mb-3 uppercase tracking-wider">
                 ADVANCED COOLING TECHNOLOGY
@@ -140,6 +134,44 @@ const Home = () => {
               </p>
               <Link to="/thermoelectric-glove" className="text-primary hover:underline font-medium">
                 Learn more about the Thermoelectric Glove →
+              </Link>
+            </div>
+            <div className="relative">
+              <img 
+                src={gloveImage} 
+                alt="Thermoelectric glove prototype for palm sweating relief"
+                className="rounded-lg shadow-lg w-full h-auto"
+              />
+            </div>
+          </div>
+
+          {/* Cooling Sock Section */}
+          <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto mb-16">
+            <div className="relative order-2 md:order-1">
+              <img 
+                src={coolingSockImage} 
+                alt="Cooling sock prototype for plantar hyperhidrosis relief"
+                className="rounded-lg shadow-lg w-full h-auto"
+              />
+            </div>
+            <div className="order-1 md:order-2">
+              <p className="text-sm font-semibold text-primary mb-3 uppercase tracking-wider">
+                PLANTAR COOLING SOLUTION
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                Cooling Sock: Combat Excessive Foot Sweating
+              </h2>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                Discover the future of hyperhidrosis relief with our cooling sock prototype, engineered to combat 
+                excessive foot sweating. Utilizing cutting-edge cooling technology, these socks are designed to provide 
+                users with a soothing experience, keeping feet dry and comfortable throughout the day. The prototype is 
+                currently undergoing clinical testing to ensure safety and efficacy, paving the way for a product tailored 
+                to the needs of individuals living with plantar hyperhidrosis. Embrace a new standard of comfort and take 
+                the first step towards a sweat-free future with our innovative cooling solution. Designed for low energy 
+                use, repairability, and a long lifespan to minimize electronic waste.
+              </p>
+              <Link to="/cooling-sock" className="text-primary hover:underline font-medium">
+                Learn more about Cooling Sock →
               </Link>
             </div>
           </div>
