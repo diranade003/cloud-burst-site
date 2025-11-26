@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Smartphone, BarChart3, Bell, Users } from "lucide-react";
-import appPreview from "@/assets/sweatsmart-app-preview.jpg";
+import heroImage from "@/assets/sweatsmart-hero.jpg";
 
 const SweatSmartApp = () => {
   const features = [
@@ -35,10 +35,16 @@ const SweatSmartApp = () => {
       
       <div className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-hero text-white py-16 md:py-24">
-          <div className="container mx-auto px-4">
+        <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
+          <div 
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: `url(${heroImage})` }}
+          >
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/80 to-primary/60" />
+          </div>
+          <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
                 SweatSmart App
               </h1>
               <p className="text-xl md:text-2xl text-white/90 mb-8">
@@ -54,34 +60,25 @@ const SweatSmartApp = () => {
         {/* Main Description Section */}
         <section className="py-16 md:py-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-                <div>
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    Revolutionizing Sweat Detection
-                  </h2>
-                  <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                    The SweatSmart app revolutionizes how you detect excessive sweating, specifically targeting 
-                    palmar and plantar hyperhidrosis. Using a simple palm scan, the app provides immediate feedback 
-                    and early screening results, empowering users to take control of their condition.
-                  </p>
-                  <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                    This innovative tool is designed for ease of use in everyday settings, making it accessible for 
-                    everyone. As part of our community pilots, the app collects de-identified data to enhance its 
-                    effectiveness and tailor solutions for African users.
-                  </p>
-                  <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                    Join us in pioneering a smarter approach to sweat management and experience the relief you deserve. 
-                    Our digital tool reduces diagnostic waste by connecting the right people with the right solutions.
-                  </p>
-                </div>
-                <div className="relative">
-                  <img 
-                    src={appPreview} 
-                    alt="SweatSmart mobile app interface showing palm scan feature"
-                    className="rounded-lg shadow-lg w-full h-auto"
-                  />
-                </div>
+            <div className="max-w-4xl mx-auto">
+              <div className="text-center mb-16">
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                  Revolutionizing Sweat Detection
+                </h2>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                  The SweatSmart app revolutionizes how you detect excessive sweating, specifically targeting 
+                  palmar and plantar hyperhidrosis. Using a simple palm scan, the app provides immediate feedback 
+                  and early screening results, empowering users to take control of their condition.
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                  This innovative tool is designed for ease of use in everyday settings, making it accessible for 
+                  everyone. As part of our community pilots, the app collects de-identified data to enhance its 
+                  effectiveness and tailor solutions for African users.
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Join us in pioneering a smarter approach to sweat management and experience the relief you deserve. 
+                  Our digital tool reduces diagnostic waste by connecting the right people with the right solutions.
+                </p>
               </div>
 
               <div className="text-center mb-12">
