@@ -34,11 +34,6 @@ const Home = () => {
             <p className="text-lg md:text-xl mb-8 text-white/95 leading-relaxed">
               Giftovate develops low-energy wearables and plant-based EcoCaps, creating local jobs and reducing waste through circular design.
             </p>
-            <Link to="/sweatsmart-app">
-              <Button size="lg" className="bg-primary/90 hover:bg-primary text-white font-semibold px-8">
-                TRY SWEATSMART
-              </Button>
-            </Link>
           </div>
         </div>
       </section>
