@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Droplets, Leaf } from "lucide-react";
 import heroImage from "@/assets/hero-sustainable.png";
 import empoweringImage from "@/assets/empowering-relief.jpg";
 import sweatsmartImage from "@/assets/sweatsmart-hero.jpg";
@@ -13,15 +12,6 @@ import coolingSockImage from "@/assets/cooling-sock.jpg";
 import ecocapsImage from "@/assets/ecocaps-hero.jpg";
 
 const Home = () => {
-  const products = [
-    {
-      icon: Leaf,
-      title: "EcoCaps",
-      description: "Plant-based herbal capsules for sustainable relief",
-      link: "/ecocaps",
-    },
-  ];
-
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -224,51 +214,6 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Products Grid */}
-          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
-            {products.map((product, index) => (
-              <Link key={index} to={product.link}>
-                <Card className="p-6 h-full hover:shadow-soft transition-all duration-300 hover:-translate-y-1 cursor-pointer border-border/50 hover:border-primary/50">
-                  <div className="rounded-full bg-gradient-hero p-3 w-12 h-12 flex items-center justify-center mb-4">
-                    <product.icon className="text-white" size={24} />
-                  </div>
-                  <h3 className="font-semibold text-lg mb-2">{product.title}</h3>
-                  <p className="text-sm text-muted-foreground">{product.description}</p>
-                </Card>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="py-16 md:py-24 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-8 text-center">
-              <div>
-                <div className="text-4xl font-bold text-primary mb-2">App-Based</div>
-                <h3 className="font-semibold mb-2">Digital Health</h3>
-                <p className="text-sm text-muted-foreground">
-                  Track and manage your condition with our SweatSmart mobile application
-                </p>
-              </div>
-              <div>
-                <div className="text-4xl font-bold text-secondary mb-2">Wearable</div>
-                <h3 className="font-semibold mb-2">Cooling Devices</h3>
-                <p className="text-sm text-muted-foreground">
-                  Experience relief with our thermoelectric gloves and cooling socks
-                </p>
-              </div>
-              <div>
-                <div className="text-4xl font-bold text-primary mb-2">Community</div>
-                <h3 className="font-semibold mb-2">Pilot Programs</h3>
-                <p className="text-sm text-muted-foreground">
-                  Join our community-driven approach to improving care accessibility
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
