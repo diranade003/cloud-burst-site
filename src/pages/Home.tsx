@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { Droplets, Smartphone, ThermometerSun, Leaf } from "lucide-react";
 import heroImage from "@/assets/hero-sustainable.png";
 import empoweringImage from "@/assets/empowering-relief.jpg";
+import sweatsmartImage from "@/assets/sweatsmart-hero.jpg";
 
 const Home = () => {
   const products = [
@@ -95,6 +96,33 @@ const Home = () => {
                 alt="SweatSmart app and glove device with healthcare team"
                 className="rounded-lg shadow-lg w-full h-auto"
               />
+            </div>
+          </div>
+
+          {/* SweatSmart App Section */}
+          <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto mb-16">
+            <div className="relative order-2 md:order-1">
+              <img 
+                src={sweatsmartImage} 
+                alt="SweatSmart mobile app showing palm scan feature"
+                className="rounded-lg shadow-lg w-full h-auto"
+              />
+            </div>
+            <div className="order-1 md:order-2">
+              <p className="text-sm font-semibold text-primary mb-3 uppercase tracking-wider">
+                INNOVATIVE SCREENING
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                SweatSmart App: Revolutionizing Sweat Detection
+              </h2>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                The SweatSmart app revolutionizes how you detect excessive sweating, specifically targeting 
+                palmar and plantar hyperhidrosis. Using a simple palm scan, the app provides immediate feedback 
+                and early screening results, empowering users to take control of their condition.
+              </p>
+              <Link to="/sweatsmart-app" className="text-primary hover:underline font-medium">
+                Learn more about SweatSmart →
+              </Link>
             </div>
           </div>
 
