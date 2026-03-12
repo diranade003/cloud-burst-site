@@ -30,6 +30,7 @@ const App = () => (
           <Route path="/thermoelectric-glove" element={<ThermoelectricGlove />} />
           <Route path="/cooling-sock" element={<CoolingSock />} />
           <Route path="/ecocaps" element={<EcoCaps />} />
+          <Route path="/face-mask" element={<FaceMask />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
