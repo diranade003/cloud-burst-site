@@ -2,29 +2,29 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Wind, Activity, Droplets, Heart } from "lucide-react";
+import { Footprints, ShieldCheck, Wind, Thermometer } from "lucide-react";
 
 const CoolingSock = () => {
   const features = [
     {
+      icon: Footprints,
+      title: "Firm Gait, No More Slips",
+      description: "Eliminates dangerous \"slippery accidents\" inside sandals or slippers and gait instability. Walk at your natural pace with total stability in a dry, high-friction environment.",
+    },
+    {
+      icon: ShieldCheck,
+      title: "Odor-Free Shoe Removal",
+      description: "Antimicrobial silver-infused fibers neutralize odor-causing bacteria at the source by actively regulating temperature. Remove your shoes at home or work with zero trepidation.",
+    },
+    {
       icon: Wind,
-      title: "Breathable Materials",
-      description: "Advanced moisture-wicking fabric keeps feet cool and dry",
+      title: "Tile-Safe Confidence",
+      description: "Stop living in fear of leaving damp footprints or white \"maceration\" marks on parquet and tile flooring. The Plantar Protocol maintains a dry stratum corneum for a clean path.",
     },
     {
-      icon: Activity,
-      title: "Active Cooling",
-      description: "Integrated cooling technology targets plantar hyperhidrosis",
-    },
-    {
-      icon: Droplets,
-      title: "Moisture Management",
-      description: "Superior absorbency and quick-drying properties",
-    },
-    {
-      icon: Heart,
-      title: "All-Day Comfort",
-      description: "Ergonomic design for comfortable extended wear",
+      icon: Thermometer,
+      title: "Tropical Resilience",
+      description: "Engineered specifically for the African climate, these socks provide a localized, controlled environment that keeps feet at a stable baseline, even when temperatures exceed 28°C and humidity is \"smothering.\"",
     },
   ];
 
@@ -37,14 +37,20 @@ const CoolingSock = () => {
         <section className="bg-gradient-hero text-white py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
+              <p className="text-sm font-semibold text-white/80 mb-3 uppercase tracking-wider">
+                THE PLANTAR PROTOCOL
+              </p>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Cooling Sock Prototype
+                Active Cooling Socks
               </h1>
-              <p className="text-xl md:text-2xl text-white/90 mb-8">
-                Stay cool and dry with our innovative cooling sock technology
+              <p className="text-xl md:text-2xl text-white/90 mb-4">
+                Ending the "Shoe-Removal Anxiety" and Restoring Every Step.
+              </p>
+              <p className="text-lg text-white/80 mb-8 max-w-3xl mx-auto">
+                For warriors with plantar hyperhidrosis, every day feels like walking through a rainstorm inside their shoes. Our cooling socks are engineered with moisture-wicking natural fibers (Bamboo and Merino Wool) and integrated Peltier units to eliminate the "Catch-22" of enclosed footwear.
               </p>
               <Button size="lg" variant="secondary">
-                Learn More
+                Join the Pilot Program
               </Button>
             </div>
           </div>
@@ -55,9 +61,9 @@ const CoolingSock = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold mb-4">Revolutionary Foot Care</h2>
+                <h2 className="text-3xl font-bold mb-4">Revolutionary Plantar Care</h2>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                  Our cooling sock combines advanced materials with cooling technology for effective plantar hyperhidrosis management
+                  Every feature is engineered to restore confidence, stability, and freedom for warriors with plantar hyperhidrosis
                 </p>
               </div>
 
@@ -76,58 +82,34 @@ const CoolingSock = () => {
           </div>
         </section>
 
-        {/* Benefits */}
+        {/* Integration Section */}
         <section className="py-16 md:py-24 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 text-center">Key Benefits</h2>
+              <h2 className="text-3xl font-bold mb-8 text-center">Integration with Hyper AI</h2>
               <Card className="p-8">
-                <ul className="space-y-4">
-                  <li className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-1">
-                      <div className="w-2 h-2 rounded-full bg-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-1">Reduced Foot Sweating</h3>
-                      <p className="text-sm text-muted-foreground">
-                        Active cooling technology helps manage excessive foot perspiration
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-1">
-                      <div className="w-2 h-2 rounded-full bg-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-1">Enhanced Comfort</h3>
-                      <p className="text-sm text-muted-foreground">
-                        Stay comfortable throughout the day with moisture-wicking properties
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-1">
-                      <div className="w-2 h-2 rounded-full bg-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-1">Odor Control</h3>
-                      <p className="text-sm text-muted-foreground">
-                        Antimicrobial properties help prevent odor-causing bacteria
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-1">
-                      <div className="w-2 h-2 rounded-full bg-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-1">Improved Confidence</h3>
-                      <p className="text-sm text-muted-foreground">
-                        Feel more confident in social and professional situations
-                      </p>
-                    </div>
-                  </li>
-                </ul>
+                <p className="text-muted-foreground leading-relaxed mb-6">
+                  Giftovate hardware is the "physical edge" of the SweatSmart ecosystem. Through the Wearable Sensor Simulator, users can monitor their real-time Electrodermal Activity (EDA) and Heart Rate. When Hyper AI detects an imminent episode triggered by climate or stress, it sends a proactive alert:
+                </p>
+                <Card className="bg-accent/30 border-accent p-6 mb-6">
+                  <p className="text-sm italic text-accent-foreground">
+                    "Extreme conditions detected (32°C). Activate your Plantar Protocol Cooling Socks now to stabilize your sudomotor baseline and prevent slipping."
+                  </p>
+                </Card>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-primary mt-2" />
+                    <p className="text-sm">Real-time EDA and heart rate monitoring through the Wearable Sensor Simulator</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-primary mt-2" />
+                    <p className="text-sm">Proactive climate-triggered alerts to activate cooling before episodes begin</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-primary mt-2" />
+                    <p className="text-sm">Seamless data integration with your SweatSmart analytics dashboard</p>
+                  </div>
+                </div>
               </Card>
             </div>
           </div>
@@ -137,9 +119,9 @@ const CoolingSock = () => {
         <section className="py-16 md:py-24">
           <div className="container mx-auto px-4">
             <Card className="bg-gradient-card p-8 md:p-12 text-center max-w-3xl mx-auto border-primary/20">
-              <h2 className="text-3xl font-bold mb-4">Test Our Prototype</h2>
+              <h2 className="text-3xl font-bold mb-4">Test the Plantar Protocol</h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Participate in our pilot program and help us perfect the cooling sock technology
+                Participate in our pilot program and help us perfect the active cooling sock technology for warriors worldwide
               </p>
               <Button size="lg">Join Pilot Program</Button>
             </Card>

@@ -2,29 +2,29 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Thermometer, Zap, Clock, Shield } from "lucide-react";
+import { Thermometer, Zap, Hand, Heart } from "lucide-react";
 
 const ThermoelectricGlove = () => {
   const features = [
     {
       icon: Thermometer,
-      title: "Active Cooling",
-      description: "Thermoelectric technology provides targeted cooling to reduce palm sweating",
+      title: "Active Sudomotor Suppression",
+      description: "Integrated Peltier cooling modules actively pump heat away from the skin's surface, bypassing the \"evaporative failure\" that occurs in tropical climates once humidity crosses 70%.",
+    },
+    {
+      icon: Hand,
+      title: "AVA Targeting Technology",
+      description: "Targets Arteriovenous Anastomoses (AVAs) — the body's primary radiators in the hand — to stabilize local skin temperature and reduce sympathetic nerve over-activation.",
     },
     {
       icon: Zap,
-      title: "Rechargeable",
-      description: "Long-lasting battery for all-day comfort and relief",
+      title: "Restoring Manual Dexterity",
+      description: "Eliminates \"ghost touches\" and moisture interference on capacitive touchscreens, ensuring your grip remains dry and your precision remains sharp.",
     },
     {
-      icon: Clock,
-      title: "Adjustable Settings",
-      description: "Customize cooling intensity to match your needs",
-    },
-    {
-      icon: Shield,
-      title: "Durable Design",
-      description: "Built to withstand daily use with medical-grade materials",
+      icon: Heart,
+      title: "Heart Rate & Recovery",
+      description: "Active hand cooling accelerates heart rate recovery and reduces muscle fatigue after high-intensity stress — essential for both daily work and post-exercise recovery.",
     },
   ];
 
@@ -37,14 +37,20 @@ const ThermoelectricGlove = () => {
         <section className="bg-gradient-hero text-white py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
+              <p className="text-sm font-semibold text-white/80 mb-3 uppercase tracking-wider">
+                THE THERMOELECTRIC FRONTIER
+              </p>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Thermoelectric Glove
+                Thermoelectric Glove: Restoring Precision & Performance
               </h1>
-              <p className="text-xl md:text-2xl text-white/90 mb-8">
-                Experience comfort with our innovative cooling glove prototype
+              <p className="text-xl md:text-2xl text-white/90 mb-4">
+                Active Sudomotor Suppression meets Rapid Recovery.
+              </p>
+              <p className="text-lg text-white/80 mb-8 max-w-3xl mx-auto">
+                While passive glove liners only manage the aftermath, Giftovate's prototype thermoelectric gloves address the source. By utilizing integrated Peltier cooling modules, the glove actively pumps heat away from the skin's surface.
               </p>
               <Button size="lg" variant="secondary">
-                Learn More
+                Join the Pilot Program
               </Button>
             </div>
           </div>
@@ -57,7 +63,7 @@ const ThermoelectricGlove = () => {
               <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold mb-4">Advanced Cooling Technology</h2>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                  Our thermoelectric glove uses cutting-edge technology to provide targeted relief for palmar hyperhidrosis
+                  Precision-engineered to target the body's natural cooling pathways and restore full manual function
                 </p>
               </div>
 
@@ -83,26 +89,24 @@ const ThermoelectricGlove = () => {
               <h2 className="text-3xl font-bold mb-8 text-center">How It Works</h2>
               <Card className="p-8">
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  The thermoelectric glove utilizes Peltier effect technology to create a temperature differential 
-                  that actively cools the palms. This targeted cooling helps reduce sweating by lowering the 
-                  temperature of the affected area.
+                  The hand contains specialized vascular structures called Arteriovenous Anastomoses (AVAs) that act as the body's primary radiators. Our thermoelectric glove targets these sites using Peltier effect technology to create a temperature differential that actively pumps heat away from the skin, stabilizing local skin temperature and reducing sympathetic nerve over-activation.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                    <p className="text-sm">Wear the glove on the affected hand</p>
+                    <p className="text-sm">Wear the glove on the affected hand — the Peltier modules begin active cooling immediately</p>
                   </div>
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                    <p className="text-sm">Adjust the cooling level to your comfort</p>
+                    <p className="text-sm">AVA targeting stabilizes your thermal baseline and reduces sympathetic over-activation</p>
                   </div>
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                    <p className="text-sm">Experience relief within minutes</p>
+                    <p className="text-sm">Manual dexterity is restored — no more ghost touches, slippery grip, or moisture interference</p>
                   </div>
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                    <p className="text-sm">Use as needed throughout the day</p>
+                    <p className="text-sm">Hyper AI integration sends proactive alerts when conditions require activation</p>
                   </div>
                 </div>
               </Card>
@@ -116,7 +120,7 @@ const ThermoelectricGlove = () => {
             <Card className="bg-gradient-card p-8 md:p-12 text-center max-w-3xl mx-auto border-primary/20">
               <h2 className="text-3xl font-bold mb-4">Join Our Pilot Program</h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Be among the first to test our thermoelectric glove prototype and help shape its development
+                Be among the first to test our thermoelectric glove prototype and help shape the future of localized sudomotor suppression
               </p>
               <Button size="lg">Express Interest</Button>
             </Card>
