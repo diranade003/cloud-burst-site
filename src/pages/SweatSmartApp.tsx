@@ -19,7 +19,7 @@ import heroImage from "@/assets/sweatsmart-hero.jpg";
 const SweatSmartApp = () => {
   const features = [
     {
-      icon: CloudSun,
+      icon: BellRing,
       letter: "A",
       title: "Proactive Climate Alerting",
       description:
