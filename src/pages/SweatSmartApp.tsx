@@ -196,9 +196,9 @@ const SweatSmartApp = () => {
               </div>
 
               <div className="grid md:grid-cols-2 gap-8">
-                <Card className="p-8 border-destructive/20">
-                  <div className="rounded-full bg-destructive/10 p-4 w-16 h-16 flex items-center justify-center mb-6">
-                    <Waves className="text-destructive" size={28} />
+                <Card className="p-8" style={{ borderColor: "hsl(var(--icon-waves) / 0.2)" }}>
+                  <div className="rounded-full p-4 w-16 h-16 flex items-center justify-center mb-6" style={{ backgroundColor: "hsl(var(--icon-waves) / 0.12)" }}>
+                    <Waves style={{ color: "hsl(var(--icon-waves))" }} size={28} />
                   </div>
                   <h3 className="text-xl font-bold mb-4">
                     Climate Exacerbation
