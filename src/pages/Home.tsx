@@ -184,7 +184,7 @@ const Home = () => {
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 Stop the "rain" before it begins. Command the room with total composure. Our innovative face mask prototype provides targeted, silent relief for craniofacial hyperhidrosis. Utilizing integrated Peltier cooling modules, the mask provides active heat extraction from the forehead and cheeks, bypassing the "evaporative failure" that occurs in tropical zones once the climate crosses the 28°C and 70% humidity threshold.
               </p>
-              <Link to="/programs" className="text-primary hover:underline font-medium">
+              <Link to="/face-mask" className="text-primary hover:underline font-medium">
                 Learn more about Face Mask →
               </Link>
             </div>
