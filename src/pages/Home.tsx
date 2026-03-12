@@ -126,19 +126,13 @@ const Home = () => {
             </div>
             <div className="order-1 md:order-2">
               <p className="text-sm font-semibold text-primary mb-3 uppercase tracking-wider">
-                PLANTAR COOLING SOLUTION
+                THE PLANTAR PROTOCOL
               </p>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Cooling Sock: Combat Excessive Foot Sweating
+                Active Cooling Socks: Ending "Shoe-Removal Anxiety"
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Discover the future of hyperhidrosis relief with our cooling sock prototype, engineered to combat 
-                excessive foot sweating. Utilizing cutting-edge cooling technology, these socks are designed to provide 
-                users with a soothing experience, keeping feet dry and comfortable throughout the day. The prototype is 
-                currently undergoing clinical testing to ensure safety and efficacy, paving the way for a product tailored 
-                to the needs of individuals living with plantar hyperhidrosis. Embrace a new standard of comfort and take 
-                the first step towards a sweat-free future with our innovative cooling solution. Designed for low energy 
-                use, repairability, and a long lifespan to minimize electronic waste.
+                For warriors with plantar hyperhidrosis, every day feels like walking through a rainstorm inside their shoes. Our cooling socks are engineered with moisture-wicking natural fibers (Bamboo and Merino Wool) and integrated Peltier units to eliminate the "Catch-22" of enclosed footwear. Walk at your natural pace with total stability, knowing your feet are locked into a dry, high-friction environment.
               </p>
               <Link to="/cooling-sock" className="text-primary hover:underline font-medium">
                 Learn more about Cooling Sock →
