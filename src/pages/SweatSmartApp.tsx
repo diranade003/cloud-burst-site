@@ -36,7 +36,7 @@ const SweatSmartApp = () => {
       ],
     },
     {
-      icon: BarChart3,
+      icon: TrendingUp,
       letter: "B",
       title: "Visual Analytics Dashboard (Trend Mastery)",
       description:
