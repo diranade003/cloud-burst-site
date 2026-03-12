@@ -13,7 +13,8 @@ const Programs = () => {
     {
       icon: HeartHandshake,
       title: "Stigma Reduction",
-      description: "Educational initiatives to increase awareness and reduce stigma associated with hyperhidrosis in African communities.",
+      description: "Educational initiatives to increase awareness and reduce stigma associated with hyperhidrosis in African communities, through Beyond Sweat Foundation.",
+      link: "https://www.beyondsweat.org",
     },
     {
       icon: TrendingUp,
@@ -57,6 +58,11 @@ const Programs = () => {
                   </div>
                   <h3 className="text-2xl font-semibold mb-4">{program.title}</h3>
                   <p className="text-muted-foreground leading-relaxed">{program.description}</p>
+                  {program.link && (
+                    <a href={program.link} target="_blank" rel="noopener noreferrer" className="inline-block mt-4 text-primary hover:underline font-medium">
+                      Visit Beyond Sweat Foundation →
+                    </a>
+                  )}
                 </Card>
               ))}
             </div>
