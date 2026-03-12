@@ -87,7 +87,7 @@ const SweatSmartApp = () => {
       ],
     },
     {
-      icon: MapPin,
+      icon: UserCheck,
       letter: "E",
       title: "Specialist Radar (Verified Expertise)",
       description:
