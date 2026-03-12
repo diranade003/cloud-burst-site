@@ -4,25 +4,22 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
-  CloudSun,
+  Flame,
+  Waves,
+  Zap,
+  BellRing,
   TrendingUp,
-  Brain,
-  Search,
-  Award,
-  Activity,
-  Thermometer,
-  Shield,
-  AlertTriangle,
-  BarChart3,
-  FileText,
-  MapPin,
+  Fingerprint,
+  BotMessageSquare,
+  UserCheck,
+  Trophy,
 } from "lucide-react";
 import heroImage from "@/assets/sweatsmart-hero.jpg";
 
 const SweatSmartApp = () => {
   const features = [
     {
-      icon: CloudSun,
+      icon: BellRing,
       letter: "A",
       title: "Proactive Climate Alerting",
       description:
@@ -39,7 +36,7 @@ const SweatSmartApp = () => {
       ],
     },
     {
-      icon: BarChart3,
+      icon: TrendingUp,
       letter: "B",
       title: "Visual Analytics Dashboard (Trend Mastery)",
       description:
@@ -56,7 +53,7 @@ const SweatSmartApp = () => {
       ],
     },
     {
-      icon: Brain,
+      icon: Fingerprint,
       letter: "C",
       title: "Personalized Insights & Pattern Analysis",
       description:
@@ -73,7 +70,7 @@ const SweatSmartApp = () => {
       ],
     },
     {
-      icon: Activity,
+      icon: BotMessageSquare,
       letter: "D",
       title: "Hyper AI Consultant",
       description:
@@ -90,7 +87,7 @@ const SweatSmartApp = () => {
       ],
     },
     {
-      icon: MapPin,
+      icon: UserCheck,
       letter: "E",
       title: "Specialist Radar (Verified Expertise)",
       description:
@@ -98,7 +95,7 @@ const SweatSmartApp = () => {
       details: [],
     },
     {
-      icon: Award,
+      icon: Trophy,
       letter: "F",
       title: "Warrior Gamification: The Achievement Badge",
       description:
@@ -176,7 +173,7 @@ const SweatSmartApp = () => {
             <div className="max-w-4xl mx-auto">
               <div className="text-center mb-12">
                 <div className="inline-flex items-center gap-2 mb-4">
-                  <AlertTriangle className="text-destructive" size={28} />
+                  <Flame className="text-destructive" size={28} />
                   <h2 className="text-3xl md:text-4xl font-bold">
                     The Problem
                   </h2>
@@ -189,7 +186,7 @@ const SweatSmartApp = () => {
               <div className="grid md:grid-cols-2 gap-8">
                 <Card className="p-8 border-destructive/20">
                   <div className="rounded-full bg-destructive/10 p-4 w-16 h-16 flex items-center justify-center mb-6">
-                    <Thermometer className="text-destructive" size={28} />
+                    <Waves className="text-destructive" size={28} />
                   </div>
                   <h3 className="text-xl font-bold mb-4">
                     Climate Exacerbation
@@ -211,7 +208,7 @@ const SweatSmartApp = () => {
 
                 <Card className="p-8 border-destructive/20">
                   <div className="rounded-full bg-destructive/10 p-4 w-16 h-16 flex items-center justify-center mb-6">
-                    <Shield className="text-destructive" size={28} />
+                    <Zap className="text-destructive" size={28} />
                   </div>
                   <h3 className="text-xl font-bold mb-4">
                     The Anticipatory Feedback Loop
