@@ -2,29 +2,29 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Leaf, Users, Sparkles, CheckCircle } from "lucide-react";
+import { Leaf, Users, FlaskConical, Wallet } from "lucide-react";
 
 const EcoCaps = () => {
   const features = [
     {
-      icon: Leaf,
-      title: "Plant-Based Formula",
-      description: "Natural herbal ingredients sourced sustainably from local communities",
+      icon: FlaskConical,
+      title: "Botanical Anticholinergics",
+      description: "Formulated with potent natural compounds like Sage (Salvia officinalis), containing thujone and rosmarinic acid known for their natural anticholinergic properties that inhibit sweat gland over-activation at the source.",
     },
     {
       icon: Users,
-      title: "Community Co-Designed",
-      description: "Developed in collaboration with African communities for cultural relevance",
+      title: "Community-Led Innovation",
+      description: "Built on the wisdom of local African traditional medicine, refined through clinical observation. EcoCaps harmonize the autonomic nervous system, providing a sustainable foundation for long-term management.",
     },
     {
-      icon: Sparkles,
-      title: "Clinically Tested",
-      description: "Pilot-tested through SweatSmart app with documented results",
+      icon: Leaf,
+      title: "Sustainable Sourcing",
+      description: "All herbal ingredients are sustainably sourced from local suppliers, supporting community economies while maintaining environmental responsibility.",
     },
     {
-      icon: CheckCircle,
-      title: "Affordable Relief",
-      description: "Cost-effective solution designed for accessibility",
+      icon: Wallet,
+      title: "Affordable & Accessible",
+      description: "Designed to provide effective, high-quality care that is financially reachable for every warrior. Combine with digital tracking to end the anxiety-sweat cycle.",
     },
   ];
 
@@ -37,17 +37,20 @@ const EcoCaps = () => {
         <section className="bg-gradient-hero text-white py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
+              <p className="text-sm font-semibold text-white/80 mb-3 uppercase tracking-wider">
+                SUDOMOTOR SYNERGY FROM WITHIN
+              </p>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                EcoCaps
+                EcoCaps: Holistic. Sustainable. Validated.
               </h1>
               <p className="text-xl md:text-2xl text-white/90 mb-4">
-                Plant-Based Herbal Capsules
+                Reclaim your internal balance.
               </p>
-              <p className="text-lg text-white/80 mb-8">
-                Sustainable herbal relief co-designed with local communities and pilot-tested via SweatSmart
+              <p className="text-lg text-white/80 mb-8 max-w-3xl mx-auto">
+                EcoCaps represent our commitment to plant-based sudomotor regulation. Co-created with local African communities and pilot-tested through the SweatSmart initiative, these eco-friendly capsules offer a natural, synergetic alternative for warriors seeking relief without the side effects of traditional pharmaceuticals.
               </p>
               <Button size="lg" variant="secondary">
-                Learn More
+                Join the EcoCaps Pilot
               </Button>
             </div>
           </div>
@@ -58,9 +61,9 @@ const EcoCaps = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold mb-4">Natural Hyperhidrosis Relief</h2>
+                <h2 className="text-3xl font-bold mb-4">Plant-Based Sudomotor Regulation</h2>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                  EcoCaps combines traditional herbal knowledge with modern research to provide effective, sustainable relief
+                  Combining traditional herbal wisdom with modern clinical observation for effective, sustainable relief
                 </p>
               </div>
 
@@ -86,31 +89,27 @@ const EcoCaps = () => {
               <h2 className="text-3xl font-bold mb-8 text-center">Why EcoCaps?</h2>
               <Card className="p-8 space-y-6">
                 <div>
-                  <h3 className="font-semibold text-lg mb-3">Community-Driven Development</h3>
+                  <h3 className="font-semibold text-lg mb-3">Botanical Anticholinergics</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    EcoCaps was developed through extensive collaboration with African communities, 
-                    ensuring the formulation is culturally appropriate and addresses local needs.
+                    Formulated with potent natural compounds like Sage (Salvia officinalis), which contains thujone and rosmarinic acid known for their natural anticholinergic properties. These ingredients work internally to inhibit sweat gland over-activation at the source.
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-3">Sustainable Sourcing</h3>
+                  <h3 className="font-semibold text-lg mb-3">Community-Led Innovation</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    All herbal ingredients are sustainably sourced from local suppliers, supporting 
-                    community economies while maintaining environmental responsibility.
+                    Our formula is built on the wisdom of local African traditional medicine, refined through clinical observation. EcoCaps are designed to harmonize the autonomic nervous system, providing a sustainable foundation for long-term management.
                   </p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-3">SweatSmart Integration</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Pilot testing through the SweatSmart app allows us to continuously improve the 
-                    formulation based on real-world usage data and user feedback.
+                    By combining "Synergy from Within" with your digital tracking, you can finally end the anxiety-sweat cycle. Monitor your progress and optimize your dosage through the SweatSmart analytics dashboard.
                   </p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-3">Affordable Access</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Designed with affordability in mind, EcoCaps makes herbal hyperhidrosis relief 
-                    accessible to communities that need it most.
+                    EcoCaps align with our mission to provide effective, high-quality care that is financially reachable for every warrior. No more choosing between relief and financial stability.
                   </p>
                 </div>
               </Card>
@@ -124,7 +123,7 @@ const EcoCaps = () => {
             <Card className="bg-gradient-card p-8 md:p-12 text-center max-w-3xl mx-auto border-primary/20">
               <h2 className="text-3xl font-bold mb-4">Join the EcoCaps Pilot</h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Be part of our community pilot program and experience natural relief while contributing to product development
+                Be part of our community pilot program and experience natural sudomotor synergy while contributing to product development
               </p>
               <Button size="lg">Participate in Pilot</Button>
             </Card>

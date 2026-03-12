@@ -97,13 +97,10 @@ const Home = () => {
                 THE THERMOELECTRIC FRONTIER
               </p>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Active Cooling for Localized Relief
+                Thermoelectric Glove: Restoring Precision & Performance
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                Needles and systemic drugs are the past. Peltier technology is the future.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Our prototype thermoelectric gloves utilize high-precision cooling modules to actively pump heat away from the skin. By stabilizing your thermal baseline in real-time, we provide a localized, non-invasive solution for severe palmar hyperhidrosis. It's more than a glove; it's manual dexterity restored.
+                Active Sudomotor Suppression meets Rapid Recovery. While passive glove liners only manage the aftermath, Giftovate's prototype thermoelectric gloves address the source. By utilizing integrated Peltier cooling modules, the glove actively pumps heat away from the skin's surface, bypassing the "evaporative failure" that occurs in tropical climates once humidity crosses 70%.
               </p>
               <Link to="/thermoelectric-glove" className="text-primary hover:underline font-medium">
                 Learn more about the Thermoelectric Glove →
@@ -129,19 +126,13 @@ const Home = () => {
             </div>
             <div className="order-1 md:order-2">
               <p className="text-sm font-semibold text-primary mb-3 uppercase tracking-wider">
-                PLANTAR COOLING SOLUTION
+                THE PLANTAR PROTOCOL
               </p>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Cooling Sock: Combat Excessive Foot Sweating
+                Active Cooling Socks: Ending "Shoe-Removal Anxiety"
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Discover the future of hyperhidrosis relief with our cooling sock prototype, engineered to combat 
-                excessive foot sweating. Utilizing cutting-edge cooling technology, these socks are designed to provide 
-                users with a soothing experience, keeping feet dry and comfortable throughout the day. The prototype is 
-                currently undergoing clinical testing to ensure safety and efficacy, paving the way for a product tailored 
-                to the needs of individuals living with plantar hyperhidrosis. Embrace a new standard of comfort and take 
-                the first step towards a sweat-free future with our innovative cooling solution. Designed for low energy 
-                use, repairability, and a long lifespan to minimize electronic waste.
+                For warriors with plantar hyperhidrosis, every day feels like walking through a rainstorm inside their shoes. Our cooling socks are engineered with moisture-wicking natural fibers (Bamboo and Merino Wool) and integrated Peltier units to eliminate the "Catch-22" of enclosed footwear. Walk at your natural pace with total stability, knowing your feet are locked into a dry, high-friction environment.
               </p>
               <Link to="/cooling-sock" className="text-primary hover:underline font-medium">
                 Learn more about Cooling Sock →
@@ -153,13 +144,13 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto mb-16">
             <div>
               <p className="text-sm font-semibold text-primary mb-3 uppercase tracking-wider">
-                SUSTAINABLE HERBAL RELIEF
+                SUDOMOTOR SYNERGY FROM WITHIN
               </p>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                EcoCaps: Plant-Based Natural Solution
+                EcoCaps: Holistic. Sustainable. Validated.
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Introducing EcoCaps, our innovative plant-based herbal capsules designed for sustainable and eco-friendly relief. Co-created with local communities, these capsules harness the power of nature to provide a soothing solution for those struggling with excessive sweating. Pilot-tested through our SweatSmart initiative, EcoCaps offer a natural alternative that aligns with our commitment to affordability and accessibility. Join us in embracing a greener approach to health with EcoCaps, the herbal relief your body deserves.
+                Reclaim your internal balance. EcoCaps represent our commitment to plant-based sudomotor regulation. Co-created with local African communities and pilot-tested through the SweatSmart initiative, these eco-friendly capsules offer a natural, synergetic alternative for warriors seeking relief without the side effects of traditional pharmaceuticals.
               </p>
               <Link to="/ecocaps" className="text-primary hover:underline font-medium">
                 Learn more about EcoCaps →
@@ -185,16 +176,13 @@ const Home = () => {
             </div>
             <div className="order-1 md:order-2">
               <p className="text-sm font-semibold text-primary mb-3 uppercase tracking-wider">
-                FACIAL COOLING SOLUTION
+                PRECISION THERMAL REGULATION
               </p>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Face Mask: Relief for Craniofacial Hyperhidrosis
+                Face Mask: Craniofacial Mastery
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Our innovative face mask prototype addresses craniofacial hyperhidrosis, providing targeted relief 
-                for excessive facial sweating. Designed with advanced cooling technology and breathable materials, 
-                this wearable solution helps manage forehead, cheek, and facial perspiration, restoring confidence 
-                in social and professional settings.
+                Stop the "rain" before it begins. Command the room with total composure. Our innovative face mask prototype provides targeted, silent relief for craniofacial hyperhidrosis. Utilizing integrated Peltier cooling modules, the mask provides active heat extraction from the forehead and cheeks, bypassing the "evaporative failure" that occurs in tropical zones once the climate crosses the 28°C and 70% humidity threshold.
               </p>
               <Link to="/programs" className="text-primary hover:underline font-medium">
                 Learn more about Face Mask →
