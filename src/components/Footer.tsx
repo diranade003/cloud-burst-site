@@ -3,14 +3,14 @@ import logo from "@/assets/giftovate-logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-muted/30 border-t border-border mt-20">
-      <div className="container mx-auto px-4 py-12">
+    <footer className="bg-muted/30 border-t border-border mt-8">
+      <div className="container mx-auto px-4 py-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <img src={logo} alt="Giftovate Therapeutics Ltd Logo" className="h-12 w-auto" />
             </div>
-            <h3 className="font-bold text-lg mb-2 bg-gradient-hero bg-clip-text text-transparent">
+            <h3 className="font-bold text-lg mb-2 text-[#6B21A8]">
               Giftovate Therapeutics Ltd
             </h3>
             <p className="text-sm text-muted-foreground">
