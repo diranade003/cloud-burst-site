@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroImage from "@/assets/hero-sustainable.png";
-import empoweringImage from "@/assets/giftovate-logo.png";
+
 import sweatsmartImage from "@/assets/sweatsmart-hero.jpg";
 import gloveImage from "@/assets/thermoelectric-glove.png";
 import faceMaskImage from "@/assets/face-mask.png";
