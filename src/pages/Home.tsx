@@ -39,7 +39,7 @@ const Home = () => {
       </section>
 
       {/* About Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-background to-muted/20">
+      <section className="pt-16 pb-4 md:pt-24 md:pb-6 bg-gradient-to-b from-background to-muted/20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto mb-16">
             <p className="text-sm font-semibold text-primary mb-3 uppercase tracking-wider">
