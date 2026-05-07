@@ -196,7 +196,7 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24">
+      <section className="pt-4 pb-8 md:pt-6 md:pb-10">
         <div className="container mx-auto px-4">
           <Card className="bg-gradient-card p-8 md:p-12 text-center max-w-3xl mx-auto border-primary/20">
             <h2 className="text-3xl font-bold mb-4">Ready to Take Control?</h2>
@@ -204,7 +204,7 @@ const Home = () => {
               Explore our innovative solutions and join the community working to reduce stigma and improve care for hyperhidrosis
             </p>
             <Link to="/resources">
-              <Button size="lg">Explore Resources</Button>
+              <Button size="lg" className="bg-[#6B21A8] text-white hover:bg-[#581c87]">Explore Resources</Button>
             </Link>
           </Card>
         </div>
