@@ -122,37 +122,12 @@ const SweatSmartApp = () => {
 
       <div className="flex-grow">
         {/* Hero Section */}
-        <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: `url(${heroImage})` }}
-          >
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-primary/70" />
-          </div>
-          <div className="container mx-auto px-4 relative z-10">
-            <div className="max-w-4xl mx-auto text-center">
-              <Badge variant="secondary" className="mb-6 text-sm px-4 py-1.5">
-                Now Live — Beta Community of 50+ Warriors
-              </Badge>
-              <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white leading-tight">
-                Engineering a Sweat-Free Future
-              </h1>
-              <p className="text-lg md:text-xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-                SweatSmart is the world's first clinical-grade digital ecosystem
-                designed to break the anxiety-sweat cycle through integrated
-                intelligence and high-fidelity analytics.
-              </p>
-              <a
-                href="https://www.sweatsmart.guru"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button size="lg" variant="secondary" className="text-base px-8 py-6">
-                  Get Early Access to SweatSmart
-                </Button>
-              </a>
-            </div>
-          </div>
+        <section className="relative w-full overflow-hidden">
+          <img
+            src={heroImage}
+            alt="SweatSmart app interface"
+            className="w-full h-auto block"
+          />
         </section>
 
         {/* Mission Section */}
